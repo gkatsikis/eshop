@@ -7,16 +7,16 @@ const Product = (props) => {
       <div className="product">
         <div className="product__info">
           <p>{props.title}</p>
-          <p className="product__price">
-            <small></small>
-            <strong>${props.price}</strong>
-          </p>
           <p className="product__rating">
             {Array(props.rating)
             .fill()
             .map((_, i) => (
               <p>🌟</p>
             ))}
+          </p>
+          <p className="product__price">
+            <small></small>
+            <strong>${props.price}</strong>
           </p>
         </div>
         <img src={props.image} alt="product" />

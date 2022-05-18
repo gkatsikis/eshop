@@ -14,10 +14,12 @@
   min-width: 100px;
   background-color: white;
   z-index: 1;
+  padding-top: 100px;
 }
 
 .product__rating {
   display: flex;
+  margin-top: -20px;
 }
 
 .product > img {
@@ -48,9 +50,12 @@ p {
 }
 
 .product__price {
-  margin-top: 5px;
+  margin-top: -10px;
 }
 
 .product__info {
-
+  height: 100px;
+  margin-bottom: 1px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

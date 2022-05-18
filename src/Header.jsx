@@ -11,7 +11,7 @@ const Header = (props) => {
     <div className="header">
       <div className="header__logo">
         <StoreIcon className="header__logoImage" fontSize='large'/>
-        <h2 className="header__logoTitle">CoffeeShop</h2>
+        <h2 className="header__logoTitle">The CoffeeShop</h2>
       </div>
 
       <div className="header__search">

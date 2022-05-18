@@ -3,13 +3,13 @@ import './Product.css'
 
 const Product = (props) => {
   return ( 
-    <div>
+    <div className="product__container">
       <div className="product">
         <div className="product__info">
           <p>Las Lajas - Costa Rica - SL28</p>
           <p className="product__price">
             <small></small>
-            <strong>36$</strong>
+            <strong>$36</strong>
           </p>
           <p className="product__rating">🌟🌟🌟🌟🌟</p>
         </div>

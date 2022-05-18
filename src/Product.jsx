@@ -3,18 +3,26 @@ import './Product.css'
 
 const Product = (props) => {
   return ( 
-    <div className="product__container">
+    <div key={props.id} className="product__container">
       <div className="product">
         <div className="product__info">
-          <p>Las Lajas - Costa Rica - SL28</p>
+          <p>{props.title}</p>
           <p className="product__price">
             <small></small>
-            <strong>$36</strong>
+            <strong>${props.price}</strong>
           </p>
-          <p className="product__rating">🌟🌟🌟🌟🌟</p>
+          <p className="product__rating">
+            {Array(props.rating)
+            .fill()
+            .map((_, i) => (
+              <p>🌟</p>
+            ))}
+          </p>
         </div>
-        <img src="//cdn.shopify.com/s/files/1/1707/3261/products/CostaRicaLasLajas-10oz_1200x.png?v=1648490427" alt="coffee product" />
+        <img src={props.image} alt="product" />
+        <p className="product__link"><a href={props.link}>Original Retailer</a></p>
         <button>Add to Basket</button>
+          
       </div>
     </div>
    );

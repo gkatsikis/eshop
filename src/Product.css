@@ -8,13 +8,12 @@
   align-items: center;
   justify-content: flex-end;
   margin: 10px;
-  padding: 15px;
+  padding: 20px;
   width: 100%;
   max-height: 400px;
   min-width: 100px;
   background-color: white;
   z-index: 1;
-  border: 1px solid red;
 }
 
 .product__rating {
@@ -22,7 +21,7 @@
 }
 
 .product > img {
-  max-height: 200px;
+  max-height: 300px;
   width: 100%;
   object-fit: contain;
   margin: 20px 0 0 15px;
@@ -30,12 +29,16 @@
 
 .product > button {
   background: #6e441e;
-  border: 3px solid;
+  border: 1.5px solid;
   margin-top: 10px;
   border-radius: 5px;
   border-color: #6e441e #915929 #c57734; 
   color: whitesmoke;
   font-weight: 550;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 p {

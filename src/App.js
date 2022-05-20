@@ -4,9 +4,9 @@ import { ReactDOM } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // Components
-import Header from "./Header"
-import Home from "./Home";
-import Checkout from "./Checkout";
+import Header from "./Header/Header"
+import Home from "./Home/Home";
+import Checkout from "./Checkout/Checkout";
 
 // CSS imports
 import './App.css';
@@ -16,8 +16,9 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Header />
         <Routes>
-          <Route path="/" element={<Header />} />
+          <Route path="/" element={<Home />} />
           <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </Router>

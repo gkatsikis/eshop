@@ -22,7 +22,6 @@ const Header = (props) => {
         <input type="text" className="header__searchInput" />
         <SearchIcon className="header__searchIcon" fontSize='large'/>
       </div>
-
       <div className="header__nav">
         <div className="nav__item">
           <span className="nav__itemLineOne">Hello Guest</span>

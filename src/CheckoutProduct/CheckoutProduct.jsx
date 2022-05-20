@@ -6,7 +6,7 @@ const CheckoutProduct = (props) => {
       <div className="checkoutProduct">
         <img src="https://cdn.shopify.com/s/files/1/1707/3261/products/CostaRicaLasLajas-10oz_1200x.png?v=1648490427" alt="" className="checkoutProduct__image" />
 
-        <div className="product__info">
+        <div className="checkoutProduct__info">
           <p className="checkoutProduct__title">
             Onyx - Las Lajas
           </p>

@@ -24,7 +24,6 @@ const Subtotal = (props) => {
         value={0}
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"$"}
       />
     </div>
    );

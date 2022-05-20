@@ -15,7 +15,7 @@ const CheckoutProduct = (props) => {
             <strong>36</strong>
           </p>
           <div className="checkoutProduct__rating">
-            ✡✡✡✡✡ 
+            🌟🌟🌟🌟🌟  
           </div>
           <button>remove from basket</button>
         </div>

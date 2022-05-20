@@ -25,6 +25,8 @@ const Subtotal = (props) => {
         displayType={"text"}
         thousandSeparator={true}
       />
+
+      <button>Proceed to Checkout</button>
     </div>
    );
 }

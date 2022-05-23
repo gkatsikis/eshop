@@ -4,7 +4,7 @@ export const initialState = {
   basket: [],
 }
 
-export const reducer = (state, action) => {
+const reducer = (state, action) => {
   // eslint-disable-next-line
   switch(action.type) {
     case "ADD_TO_BASKET":
@@ -14,3 +14,5 @@ export const reducer = (state, action) => {
       }
   }
 }
+
+export default reducer

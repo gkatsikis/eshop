@@ -3,6 +3,7 @@ import "./Home.css"
 import Product from "../Product/Product";
 
 const Home = (props) => {
+  
   return ( 
     <div>
       <div className="home">

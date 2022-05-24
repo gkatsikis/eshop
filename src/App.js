@@ -19,6 +19,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
+          <Route path="/login" element={<Login />} />
           <Route path="/" element={<Home />} />
           <Route path="/checkout" element={<Checkout />} />
         </Routes>

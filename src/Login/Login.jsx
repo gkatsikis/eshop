@@ -6,6 +6,9 @@ import { Link, useHistory } from 'react-router-dom'
 import './Login.css'
 import StoreIcon from '@mui/icons-material/Store'
 
+// Firebase
+import { auth } from "../Firebase"
+
 const Login = (props) => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')

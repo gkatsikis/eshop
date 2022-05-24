@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./Header/Header"
 import Home from "./Home/Home";
 import Checkout from "./Checkout/Checkout";
+import Login from "./Login/Login";
 
 // CSS imports
 import './App.css';

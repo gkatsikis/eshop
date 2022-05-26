@@ -7,7 +7,7 @@ import './Login.css'
 import StoreIcon from '@mui/icons-material/Store'
 
 // Firebase
-import { auth } from "../Firebase"
+import { auth } from "../firebase"
 
 const Login = (props) => {
   const navigate = useNavigate()
